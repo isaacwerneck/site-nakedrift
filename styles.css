@@ -2,7 +2,11 @@ body {
     font-family: 'VT323', monospace, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #181a20 url('https://www.transparenttextures.com/patterns/graphy.png');
+    background-color: #0a0a12;
+    background-image: url('/assets/gifs/background.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
     color: #e0e0e0;
     min-height: 100vh;
     font-size: 20px;
@@ -99,13 +103,18 @@ li {
 }
 
 img {
-    image-rendering: pixelated;
     border-radius: 6px;
     box-shadow: 2px 2px 0 #00ccff, 4px 4px 0 #ff00cc;
     background: #23242b;
     max-width: 100%;
     height: auto;
     display: inline-block;
+}
+
+.no-frame {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
 }
 
 #counter {
@@ -182,7 +191,7 @@ nav a:hover, nav a:focus {
 
 
 
-#features {
+#projects {
     padding: 2em 1.5em;
     background: #23242b;
     border-radius: 18px;
@@ -190,12 +199,12 @@ nav a:hover, nav a:focus {
     box-shadow: 0 2px 16px #0006;
     max-width: 700px;
 }
-#features h3 {
+#projects h3 {
     color: #ffe066;
     font-size: 1.3em;
     margin-bottom: 0.7em;
 }
-#features ul {
+#projects ul {
     list-style: disc inside;
     padding-left: 0;
     color: #e0e0e0;
@@ -378,7 +387,7 @@ input:focus, textarea:focus {
         width: 90vw;
         height: auto;
     }
-    #features, #gallery, #socials, #patch-notes, #surprise {
+    #projects, #gallery, #socials, #patch-notes, #surprise {
         margin: 1em 0.2em;
         padding: 1.2em 0.5em;
     }

@@ -1,6 +1,3 @@
-// Add interactivity if needed
-// Example: Simple gallery click event
-
 document.addEventListener('DOMContentLoaded', function() {
     // Minimal, modern console greeting
     console.log('%cDungeon4Fun', 'color: #ffe066; font-size: 2.2em; font-weight: bold; background: #23242b; padding: 0.2em 0.7em; border-radius: 8px;');
